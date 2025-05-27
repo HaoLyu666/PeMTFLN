@@ -1,7 +1,7 @@
-#  Analyzable Parameters Dominated Vehicle Platoon Dynamics Modeling and Analysis: A Physics-Encoded Deep Learning Approach
+#  Knowledge-data fusion dominated vehicle platoon dynamics modeling and analysis: A physics-encoded deep learning approach
 
 ## Overview
-The code repository for the study titled **"Analyzable Parameters Dominated Vehicle Platoon Dynamics Modeling and Analysis: A Physics-Encoded Deep Learning Approach"** will be made available upon acceptance of the manuscript.
+The code repository for the study titled **"Knowledge-data fusion dominated vehicle platoon dynamics modeling and analysis: A physics-encoded deep learning approach"** will be made available upon acceptance of the manuscript.
 
 
 
