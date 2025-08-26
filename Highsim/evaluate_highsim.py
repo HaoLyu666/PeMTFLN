@@ -65,7 +65,7 @@ class Evaluate:
         encoder = Encoder(args).to(DEVICE)
         predictor = Predictor(args)
 
-        model_path = os.path.join(args['path'], f'epoch{epoch_num}_encoder.tar')
+        model_path = os.path.join('epoch20_e.tar')
         if not os.path.exists(model_path):
             print(f"Error: Model checkpoint not found at {model_path}")
             return
