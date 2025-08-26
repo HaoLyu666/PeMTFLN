@@ -116,10 +116,10 @@ PeMTFLN was compared with several baseline models on the HIGH-SIM dataset. As sh
 ![Trajectory Reproduction](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/accuracylocalvis.png)
 
 **Stability Analysis**: The model successfully replicates the stability evolution of real-world platoons, which validates its capability for physical analysis.
-![Stability Analysis](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/stability_analysis.png)
+![Stability Analysis](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/stability.png)
 
 **Safety Analysis**: The model's predictions align closely with ground-truth data in terms of surrogate safety measure distributions, such as Post-Encroachment Time (PET) and Safe Stopping Distance Difference (SSDD).
-![Safety Analysis](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/safety_analysis.png)
+![Safety Analysis](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/safety.png)
 
 ---
 
@@ -158,6 +158,7 @@ This project is released under the [MIT License](LICENSE).
 
 
  
+
 
 
 
