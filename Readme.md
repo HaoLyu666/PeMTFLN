@@ -19,7 +19,7 @@ Nonlinear platoon dynamics modeling is essential for predicting and optimizing v
 
 The overall architecture of our proposed **Parameters Encoder Multi-scale Trajectory Feature Learning Network (PeMTFLN)** integrates a multi-scale feature learning network (MTFLN) to learn driving patterns from data and an analyzable parameters encoded computational graph (APeCG) to ensure physical consistency and stability.
 
-![Framework Diagram](https://github.com/HaoLyu666/PeMTFLN/figures/framework.png)
+![Framework Diagram](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/framework.png)
 > **Figure**: The architecture of PeMTFLN under the PeDL Framework, consisting of (a) Vehicle-level Feature Learning, (b) Platoon-level Feature Learning, (c) Non-Autoregressive Parameters Decoder, and (d) Analyzable Parameters Encoded Computational Graph.
 
 ---
@@ -113,13 +113,13 @@ PeMTFLN was compared with several baseline models on the HIGH-SIM dataset. As sh
 ### Qualitative Results
 
 **Trajectory Reproduction**: PeMTFLN accurately reproduces platoon trajectories under various driving scenarios, including continuous acceleration, oscillation, and deceleration.
-![Trajectory Reproduction](https://github.com/HaoLyu666/PeMTFLN/figures/accuracylocalvis.png)
+![Trajectory Reproduction](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/accuracylocalvis.png)
 
 **Stability Analysis**: The model successfully replicates the stability evolution of real-world platoons, which validates its capability for physical analysis.
-![Stability Analysis](https://github.com/HaoLyu666/PeMTFLN/figures/stability_analysis.png)
+![Stability Analysis](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/stability_analysis.png)
 
 **Safety Analysis**: The model's predictions align closely with ground-truth data in terms of surrogate safety measure distributions, such as Post-Encroachment Time (PET) and Safe Stopping Distance Difference (SSDD).
-![Safety Analysis](https://github.com/HaoLyu666/PeMTFLN/figures/safety_analysis.png)
+![Safety Analysis](https://github.com/HaoLyu666/PeMTFLN/blob/main/figures/safety_analysis.png)
 
 ---
 
@@ -158,6 +158,7 @@ This project is released under the [MIT License](LICENSE).
 
 
  
+
 
 
 
