@@ -1,13 +1,3 @@
-import sys
-import os
-
-# 获取上一级目录的路径
-parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-
-# 将上一级目录添加到sys.path
-sys.path.append(parent_dir)
-
-
 import math
 from dataclasses import dataclass
 from typing import Union
@@ -16,8 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from module.pscan import pscan
-from config import args
+from .pscan import pscan
 
 """
 
@@ -41,7 +30,7 @@ See Figure 3 of the paper (page 8) for a visual representation of a MambaBlock.
 
 @dataclass
 class MambaConfig:
-    d_model: int =args['encoder_size'] # D
+    d_model: int = 64 # D
     n_layers: int = 1
     dt_rank: Union[int, str] = 'auto'
     d_state: int = 16 # N in paper/comments

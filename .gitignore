@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+results/*
+!results/.gitkeep
+
+# Keep the lightweight demo data, but do not commit full processed datasets.
+data/*.npz
+!data/sample_highsim.npz
+!data/pemtfln_prediction_sample.npz
+
+# Keep the release checkpoint only.
+checkpoints/*.tar
+!checkpoints/pemtfln_highsim_epoch20.tar
+
+# Publisher PDFs and local manuscript copies are reference-only.
+assets/*.local.pdf
+*.local.pdf
+
+# Operating-system and editor noise.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
